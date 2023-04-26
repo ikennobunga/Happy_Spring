@@ -1,0 +1,221 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-text font-family="Inter, sans-serif" align="center" font-size="16px" line-height="22px" color="#000" padding="0"/>
+      <mj-image padding="0"/>
+      <mj-section padding="0" background-color="#fff"/>
+      <mj-class name="header" font-size="24px" font-weight="bold" color="#000" align="center" text-transform="uppercase" line-height="24px"/>
+      <mj-button background-color="#000" font-size="14px" color="#fff" font-family="Inter, sans-serif" border-radius="6px"/>
+      <mj-divider border-width="1px" padding="30px 4px"/>
+      <mj-class name="category-button" background-color="#FE0000" font-size="20px"  border-radius="0"/>
+    </mj-attributes>
+
+    <mj-style>
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+      @media (max-width: 480px) {
+        .spacing {
+          padding: 30px 40px 30px 40px;
+        }
+        .spacing2 {
+          padding-bottom: 30px;
+        }
+        .spacing3 {
+          padding: 0 60px;
+        }
+        .bordered {
+          border-right: 1px soild  #FE0000;
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <!-- Email Title -->
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-text line-height="24px" font-size="12px">
+            Spring Fest 🥳 🎊 🪅🎉 Offer HURRY!!!
+          </mj-text>
+      </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Logo Section -->
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="bold" padding="30px">
+          Happy Spring
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero section -->
+    <mj-section>
+      <mj-column>
+        <mj-raw>
+          <img src="https://i.ibb.co/Cz8Wgvp/Happy-Spring-3.png" width="100%"/>
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+
+    <!-- Latest Section -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="header" padding="30px">
+          latest collection
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Gallary Section -->
+    <mj-section padding-bottom="80px">
+      <mj-column css-class="spacing2">
+        <mj-image src="https://i.ibb.co/Fw5vpHZ/fashionshow-2-Small.jpg" padding="0 10px" alt="fashion model" />
+        <mj-text padding="20px">
+          <div class="spacing3">Lorem ipsum dolor sit amet consectetur. Quisque</div>
+        </mj-text>
+        <mj-button>
+          Add to cart
+        </mj-button>
+      </mj-column>
+      <mj-column css-class="spacing2">
+        <mj-image src="https://i.ibb.co/41WWV5P/giano-currie-268935-unsplash.jpg" padding="0 10px" alt="fashion model" />
+        <mj-text padding="20px">
+          <div class="spacing3">Lorem ipsum dolor sit amet consectetur. Quisque</div>
+        </mj-text>
+        <mj-button>
+          Add to cart
+        </mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image src="https://i.ibb.co/nDFXX95/kunj-parekh-569452-unsplash.jpg" padding="0 10px" alt="fashion model" />
+        <mj-text padding="20px">
+          <div class="spacing3">Lorem ipsum dolor sit amet consectetur. Quisque</div>
+        </mj-text>
+        <mj-button>
+          Add to cart
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Category by discount -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="header" padding="30px">
+          category by discount
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Discount -->
+    <mj-section padding-right="1px" padding-left="1px">
+      <mj-column border="1px solid #FE0000">
+        <mj-text text-transform="uppercase" font-size="20px" line-height="24px" padding="12px">
+          bags
+        </mj-text>
+        <mj-text font-weight="bold" font-size="48px" line-height="40px">
+          50%
+        </mj-text>
+        <mj-button mj-class="category-button">
+          shop now
+        </mj-button>
+      </mj-column>
+      <mj-column border="1px solid #39AEE0">
+        <mj-text text-transform="uppercase" font-size="20px" line-height="24px" padding="12px">
+          bags
+        </mj-text>
+        <mj-text font-weight="bold" font-size="48px" line-height="40px">
+          30%
+        </mj-text>
+        <mj-button mj-class="category-button" background-color="#39AEE0">
+          shop now
+        </mj-button>
+      </mj-column>
+      <mj-column border="1px solid #D9BB84">
+        <mj-text text-transform="uppercase" font-size="20px" line-height="24px" padding="12px">
+          bags
+        </mj-text>
+        <mj-text font-weight="bold" font-size="48px" line-height="40px">
+          60%
+        </mj-text>
+        <mj-button mj-class="category-button" background-color="#D9BB84">
+          shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Sheeping Cash Online -->
+    <mj-section background-color="#000C26" padding-top="30px" css-class="spacing">
+      <mj-column padding-left="20px" padding-right="20px" padding-bottom="30px">
+        <mj-image src="https://i.ibb.co/FghTVCg/truck-svg.png" width="80px" padding-bottom="12px" alt="svg image" />
+        <mj-text color="#fff" text-transform="capitalize">
+          free shipping
+        </mj-text>
+        <mj-text color="#fff" font-size="14px" text-transform="capitalize" padding-top="10px">
+          Lorem ipsum dolor sit amet consectetur.
+        </mj-text>
+      </mj-column>
+      <mj-column padding-left="20px" padding-right="20px" padding-bottom="30px">
+        <mj-image src="https://i.ibb.co/C78qrLY/card-svg.png" width="50px" padding-bottom="8px" alt="" />
+        <mj-text color="#fff" text-transform="capitalize">
+          cash back
+        </mj-text>
+        <mj-text color="#fff" font-size="14px" text-transform="capitalize" padding-top="10px">
+          Lorem ipsum dolor sit amet consectetur.
+        </mj-text>
+      </mj-column>
+      <mj-column padding-left="20px" padding-right="20px" padding-bottom="30px">
+        <mj-image src="https://i.ibb.co/gvSrWHG/camera-svg.png" width="50px" padding-bottom="10px" alt="" />
+        <mj-text color="#fff" text-transform="capitalize">
+          online support
+        </mj-text>
+        <mj-text color="#fff" font-size="14px" text-transform="capitalize" padding-top="10px">
+          Lorem ipsum dolor sit amet consectetur.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding="80px 80px 0px">
+      <mj-column>
+        <mj-text>
+          if you have any questions, please email us at customer.success@unlayer.com or visit our FAQS, you can also chat with a reel live human during our operating hours. They can answer questions about your account
+        </mj-text>
+        <mj-divider/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text padding-bottom="20px">
+          <img src="https://i.ibb.co/QnMRBbY/facebook-blue.png" alt="" width="30px" style="padding: 6px"/>
+          <img src="https://i.ibb.co/Brgyb5d/instagram-red.png" alt="" width="30px" style="padding: 6px"/>
+          <img src="https://i.ibb.co/5GvnHLD/linked-in-blue.png" alt="" width="30px" style="padding: 6px"/>
+          <img src="https://i.ibb.co/XFBp9sj/twitter-blue.png" alt="" width="30px" style="padding: 6px"/>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="30px">
+      <mj-column>
+        <mj-text>
+          <a href="#" style="padding: 10px">Home</a>
+          <a href="#" style="padding: 10px">About Us</a>
+          <a href="#" style="padding: 10px">Contact Us</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="80px">
+      <mj-column>
+        <mj-text padding="0 72px">
+          You have received this email as a registered user of unlayer.com
+          can <a href="" style="color: #39AEE0">unsubscribe</a> from these emails here.
+           <br/><br>
+           2261 Market Street #4667 San Francisco, CA 94114 All rights reserved
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
